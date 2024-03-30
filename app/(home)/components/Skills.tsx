@@ -31,7 +31,7 @@ const Skills = () => {
             Icon: SiJavascript,
         },
         {
-            text: "Node,js",
+            text: "Node.js",
             Icon: SiNodedotjs,
         },
         {
