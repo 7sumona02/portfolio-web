@@ -3,7 +3,7 @@
 import React from 'react'
 import Title from './Title'
 import { HoverEffect } from '@/components/ui/card-hover-effect'
-import { SiGit, SiJavascript, SiNextdotjs, SiNodedotjs, SiPostgresql, SiReact, SiSupabase, SiSvelte, SiTailwindcss } from 'react-icons/si'
+import { SiCplusplus, SiGit, SiHtml5, SiJavascript, SiNextdotjs, SiNodedotjs, SiPostgresql, SiReact, SiRenpy, SiSupabase, SiSvelte, SiTailwindcss } from 'react-icons/si'
 
 const Skills = () => {
     const skills = [
@@ -16,15 +16,15 @@ const Skills = () => {
             Icon: SiNextdotjs,
         },
         {
-            text: "Supabase",
-            Icon: SiSupabase,
+            text: "Javascript",
+            Icon: SiJavascript,
         },
         {
             text: "Tailwind",
             Icon: SiTailwindcss,
         },{
-            text: "Git",
-            Icon: SiGit,
+            text: "C++",
+            Icon: SiCplusplus,
         },
         {
             text: "Javascript",
@@ -35,12 +35,12 @@ const Skills = () => {
             Icon: SiNodedotjs,
         },
         {
-            text: "Postgresql",
-            Icon: SiPostgresql,
+            text: "HTML",
+            Icon: SiHtml5,
         },
         {
-            text: "Svelte",
-            Icon: SiSvelte,
+            text: "Ren'Py",
+            Icon: SiRenpy,
         },
     ]
   return (
